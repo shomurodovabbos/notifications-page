@@ -15,10 +15,47 @@
     box-sizing: border-box;
 }
 body {
+    font-family: "Plus Jakarta Sans", sans-serif;
     min-height: 100vh;
-    background-color: var(--navy-50);
+    background-color: var(--navy-100);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px;
+}
+.card {
+    background-color: var(--white);
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 750px;
+    width: 100%;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.badge {
+    font-size: 16px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn-all {
+    background: none;
+    color: var(--gray-600);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s;
+}
+.btn-all:hover {
+    color: var(--blue);
 }
